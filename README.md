@@ -1,6 +1,6 @@
-# wifi-heat [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
+# wifi-heat [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
-> This is awesome application
+> Show all wifi in command line
 
 
 ## Install
@@ -9,7 +9,6 @@
 $ npm install --save wifi-heat
 ```
 
-
 ## Usage
 
 ### JavaScript
@@ -17,19 +16,14 @@ $ npm install --save wifi-heat
 ```js
 var wifi-heat = require('wifi-heat');
 
-wifi-heat('Rainbow');
+wifi-heat(cb);
 ```
 
 ### Command Line reference
 
 ```sh
 $ npm install --global wifi-heat
-$ wifi-heat --help
-```
-
-## Run Test
-```sh
-npm test
+$ wifi-heat
 ```
 
 ## Contribute or Report Issue
@@ -45,5 +39,3 @@ MIT © [Yashprit Singh](http://yashprit.com)
 [npm-image]: https://badge.fury.io/js/wifi-heat.svg
 [travis-url]: https://travis-ci.org/yashprit/wifi-heat
 [travis-image]: https://travis-ci.org/yashprit/wifi-heat.svg?branch=master
-[daviddm-url]: https://david-dm.org/yashprit/wifi-heat.svg?theme=shields.io
-[daviddm-image]: https://david-dm.org/yashprit/wifi-heat
