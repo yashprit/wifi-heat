@@ -1,0 +1,42 @@
+{
+  "name": "wifi-heat",
+  "version": "0.0.1",
+  "description": "This is awesome application",
+  
+    "bugs": {
+      "url": "yashprit/wifi-heat/issues"
+  },
+  "author": {  "url": "http://yashprit.com"  ,  "name": "Yashprit Singh"  ,  "email": "yashprit@gmail.com" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "yashprit/wifi-heat"
+  },
+  "license": "MIT",
+  "files": [ 
+        "index.js"   ,
+        "cli.js" 
+  ],
+  "keywords": [
+    "wifi-heat"  ,
+        "wifi"  ,
+        "heat-map"  ,
+        "cli" 
+  ],
+  "dependencies": { 
+        "minimist": "^1.1.1" 
+  },
+  "devDependencies": { 
+        "mocha": "*" 
+       ,
+      "jshint-stylish": "^1.0.0" 
+  },
+  "scripts": { 
+      
+      
+       "test": "mocha" 
+  }  ,
+      "bin": {
+        "wifi-heat": "cli.js"
+    } 
+}
