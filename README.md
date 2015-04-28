@@ -26,6 +26,8 @@ $ wifi-heat
 # press escape to exit process
 ```
 
+![ScreenShot](https://raw.github.com/yashprit/wifi-heat/master/screen_shot.png)
+
 ## Contribute or Report Issue
 For bugs and feature requests, [please create an issue][issue-url].
 
