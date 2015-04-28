@@ -14,9 +14,8 @@ $ npm install --save wifi-heat
 ### JavaScript
 
 ```js
-var wifi-heat = require('wifi-heat');
-
-wifi-heat(cb);
+var wifiHeat = require('wifi-heat');
+wifiHeat(cb);
 ```
 
 ### Command Line reference
@@ -24,11 +23,11 @@ wifi-heat(cb);
 ```sh
 $ npm install --global wifi-heat
 $ wifi-heat
+# press escape to exit process
 ```
 
 ## Contribute or Report Issue
 For bugs and feature requests, [please create an issue][issue-url].
-
 
 ## License
 
