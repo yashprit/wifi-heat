@@ -1,14 +1,14 @@
 {
   "name": "wifi-heat",
-  "version": "0.0.1",
-  "description": "This is awesome application",
+  "version": "0.1.0",
+  "description": "Check wifi near by you",
   "bugs": {
     "url": "yashprit/wifi-heat/issues"
   },
   "author": {
     "url": "http://yashprit.com",
     "name": "Yashprit Singh",
-    "email": "yashprit@gmail.com"
+    "email": "yashprit@yashprit.com"
   },
   "repository": {
     "type": "git",
@@ -26,9 +26,9 @@
     "cli"
   ],
   "dependencies": {
-    "minimist": "^1.1.1",
-    "blessed": "^0.1.53",
-    "blessed-contrib": "^2.0.4"
+    "minimist": "^1.2.0",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.7.5"
   },
   "bin": {
     "wifi-heat": "cli.js"
